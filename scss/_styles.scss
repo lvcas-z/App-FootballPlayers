@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;700&family=Noto+Sans:ital,wght@0,100;0,400;0,800;1,100;1,400;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #181818;
+    font-family: $font;
+    ul{
+        list-style: none;
+    }
+    padding: 1rem;
+}
+header{
+    margin-bottom: 2rem;
+    h1{
+    color: $secondary;
+    text-shadow: 
+    $primary 0 0 15px,
+    $primary 0 0 15px,
+    $primary 0 0 20px;
+    text-align: center;
+    }
+}
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: $secondary;
+    .card{
+        border: 5px solid $secondary;
+        border-radius: 1rem ;
+        box-shadow: 
+                    $primary 0 0 10px,
+                    $primary 0 0 10px,
+                    $primary 0 0 15px;;
+        width: 75%;
+        .player{
+            img{
+            width: 80%;
+            }
+            h4{
+                font-weight: 800;
+                text-shadow: 
+                            $primary 0 0 15px,
+                            $primary 0 0 15px,
+                            $primary 0 0 20px;
+            }
+        }
+        .specs{
+            padding: 1rem;
+        }
+    }
+}
