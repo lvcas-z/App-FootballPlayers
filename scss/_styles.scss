@@ -24,32 +24,39 @@ header{
     }
 }
 main{
-    display: flex;
-    justify-content: center;
     text-align: center;
     color: $secondary;
-    .card{
-        border: 5px solid $secondary;
-        border-radius: 1rem ;
-        box-shadow: 
-                    $primary 0 0 10px,
-                    $primary 0 0 10px,
-                    $primary 0 0 15px;;
-        width: 75%;
-        .player{
-            img{
-            width: 80%;
+    .select{
+        margin-bottom: 1rem;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+        .card{
+            border: 5px solid $secondary;
+            border-radius: 1rem ;
+            box-shadow: 
+                        $primary 0 0 10px,
+                        $primary 0 0 10px,
+                        $primary 0 0 15px;;
+            width: 75%;
+            .player{
+                img{
+                width: 70%;
+                }
+                h4{
+                    font-weight: 800;
+                    text-shadow: 
+                                $primary 0 0 15px,
+                                $primary 0 0 15px,
+                                $primary 0 0 20px;
+                }
             }
-            h4{
-                font-weight: 800;
-                text-shadow: 
-                            $primary 0 0 15px,
-                            $primary 0 0 15px,
-                            $primary 0 0 20px;
+            .specs{
+                padding: 1rem;
             }
-        }
-        .specs{
-            padding: 1rem;
-        }
+    }
     }
 }

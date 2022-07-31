@@ -25,29 +25,37 @@ header h1 {
 }
 
 main {
+  text-align: center;
+  color: #ffffff;
+}
+main .select {
+  margin-bottom: 1rem;
+}
+main .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
-  color: #ffffff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 3rem;
 }
-main .card {
+main .container .card {
   border: 5px solid #ffffff;
   border-radius: 1rem;
   -webkit-box-shadow: #740808 0 0 10px, #740808 0 0 10px, #740808 0 0 15px;
           box-shadow: #740808 0 0 10px, #740808 0 0 10px, #740808 0 0 15px;
   width: 75%;
 }
-main .card .player img {
-  width: 80%;
+main .container .card .player img {
+  width: 70%;
 }
-main .card .player h4 {
+main .container .card .player h4 {
   font-weight: 800;
   text-shadow: #740808 0 0 15px, #740808 0 0 15px, #740808 0 0 20px;
 }
-main .card .specs {
+main .container .card .specs {
   padding: 1rem;
 }

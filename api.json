@@ -1,0 +1,97 @@
+[
+    {
+      "image": "img/vinicius.png",
+      "name": "vinicius jr",
+      "position": "lw ",
+      "country": "brazil",
+      "birth" : "12/07/00 (22)"
+    },
+    {
+      "image": "img/neymar.png",
+      "name": "neymar",
+      "position": "lw ",
+      "country": "brazil",
+      "birth" : ""
+    },{
+      "image": "img/messi.png",
+      "name": "messi",
+      "position": "rw",
+      "country": "argentina",
+      "birth" : ""
+    },{
+      "image": "img/dimaria.png",
+      "name": "di maria",
+      "position": "rw",
+      "country": "argentina",
+      "birth" : ""
+    },{
+      "image": "img/depaul.png",
+      "name": "de paul",
+      "position": "cm",
+      "country": "argentina",
+      "birth" : ""
+    },{
+      "image": "img/cutiromero.png",
+      "name": "romero",
+      "position": "cb",
+      "country": "argentina",
+      "birth" : ""
+    },{
+      "image": "img/courtois.png",
+      "name": "courtois",
+      "position": "gk",
+      "country": "belgium",
+      "birth" : ""
+    },{
+      "image": "img/debruyne.png",
+      "name": "de bruyne",
+      "position": "cam",
+      "country": "belgium",
+      "birth" : ""
+    },{
+      "image": "img/modric.png",
+      "name": "modric",
+      "position": "cm",
+      "country": "croatia",
+      "birth" : ""
+    },{
+      "image": "img/benzema.png",
+      "name": "benzema",
+      "position": "st",
+      "country": "france",
+      "birth" : ""
+    },{
+      "image": "img/mbappe.png",
+      "name": "mbappe",
+      "position": "st",
+      "country": "france",
+      "birth" : ""
+    }
+    ,{
+      "image": "img/kimmich.png",
+      "name": "kimmich",
+      "position": "cdm",
+      "country": "germany",
+      "birth" : ""
+    }
+    ,{
+      "image": "img/neuer.png",
+      "name": "neuer",
+      "position": "gk",
+      "country": "germany",
+      "birth" : ""
+    }
+    ,{
+      "image": "img/vandijk.png",
+      "name": "van dijk",
+      "position": "cb",
+      "country": "netherlands",
+      "birth" : ""
+    },{
+      "image": "img/ronaldo.png",
+      "name": "ronaldo",
+      "position": "st",
+      "country": "portugal",
+      "birth" : ""
+    }
+  ]
