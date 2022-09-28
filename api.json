@@ -1,5 +1,6 @@
 [
     {
+      "region":"sa",
       "image": "img/vinicius.png",
       "name": "vinicius jr",
       "position": "lw ",
@@ -7,91 +8,152 @@
       "birth" : "12/07/00 (22)"
     },
     {
+      "region":"sa",
       "image": "img/neymar.png",
       "name": "neymar",
       "position": "lw ",
       "country": "brazil",
-      "birth" : ""
+      "birth" : "05/02/92 (30)"
     },{
+      "region":"sa",
       "image": "img/messi.png",
       "name": "messi",
       "position": "rw",
       "country": "argentina",
-      "birth" : ""
+      "birth" : "24/06/86 (35)"
     },{
+      "region":"sa",
       "image": "img/dimaria.png",
       "name": "di maria",
       "position": "rw",
       "country": "argentina",
-      "birth" : ""
+      "birth" : "14/02/88 (34)"
     },{
+      "region":"sa",
       "image": "img/depaul.png",
       "name": "de paul",
       "position": "cm",
       "country": "argentina",
-      "birth" : ""
+      "birth" : "24/05/94 (28)"
     },{
+      "region":"sa",
       "image": "img/cutiromero.png",
       "name": "romero",
       "position": "cb",
       "country": "argentina",
-      "birth" : ""
+      "birth" : "27/04/98 (24)"
     },{
+      "region":"eu",
       "image": "img/courtois.png",
       "name": "courtois",
       "position": "gk",
       "country": "belgium",
-      "birth" : ""
+      "birth" : "11/05/92 (30)"
     },{
+      "region":"eu",
       "image": "img/debruyne.png",
       "name": "de bruyne",
       "position": "cam",
       "country": "belgium",
-      "birth" : ""
+      "birth" : "28/06/91 (31)"
     },{
+      "region":"eu",
       "image": "img/modric.png",
       "name": "modric",
       "position": "cm",
       "country": "croatia",
-      "birth" : ""
+      "birth" : "09/09/85 (37)"
     },{
+      "region":"eu",
       "image": "img/benzema.png",
       "name": "benzema",
       "position": "st",
       "country": "france",
-      "birth" : ""
+      "birth" : "19/12/87 (34)"
     },{
+      "region":"eu",
       "image": "img/mbappe.png",
       "name": "mbappe",
       "position": "st",
       "country": "france",
-      "birth" : ""
+      "birth" : "20/12/98 (23)"
     }
     ,{
+      "region":"eu",
       "image": "img/kimmich.png",
       "name": "kimmich",
       "position": "cdm",
       "country": "germany",
-      "birth" : ""
+      "birth" : "08/02/95 (27)"
     }
     ,{
+      "region":"eu",
       "image": "img/neuer.png",
       "name": "neuer",
       "position": "gk",
       "country": "germany",
-      "birth" : ""
+      "birth" : "27/03/86 (36)"
     }
     ,{
+      "region":"eu",
       "image": "img/vandijk.png",
       "name": "van dijk",
       "position": "cb",
       "country": "netherlands",
-      "birth" : ""
+      "birth" : "08/07/91 (31)"
     },{
+      "region":"eu",
       "image": "img/ronaldo.png",
       "name": "ronaldo",
       "position": "st",
       "country": "portugal",
-      "birth" : ""
+      "birth" : "05/02/85 (37)"
+    },{
+      "region":"af",
+      "image": "img/salah.png",
+      "name": "salah",
+      "position": "rw",
+      "country": "egypt",
+      "birth" : "15/06/92 (30)"
+    }
+    ,{
+      "region":"af",
+      "image": "img/mane.png",
+      "name": "mané",
+      "position": "st",
+      "country": "senegal",
+      "birth" : "10/04/92 (30)"
+    }
+    ,{
+      "region":"af",
+      "image": "img/koulibaly.png",
+      "name": "koulibaly",
+      "position": "cb",
+      "country": "senegal",
+      "birth" : "20/06/91 (31)"
+    }
+    ,{
+      "region":"af",
+      "image": "img/hakimi.png",
+      "name": "hakimi",
+      "position": "rb",
+      "country": "morocco",
+      "birth" : "04/11/98 (23)"
+    }
+    ,{
+      "region":"af",
+      "image": "img/kessie.png",
+      "name": "kessie",
+      "position": "cm",
+      "country": "ivory coast",
+      "birth" : "19/12/96 (25)"
+    }
+    ,{
+      "region":"af",
+      "image": "img/mendy.png",
+      "name": "mendy",
+      "position": "gk",
+      "country": "senegal",
+      "birth" : "01/03/92 (30)"
     }
   ]
