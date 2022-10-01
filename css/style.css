@@ -7,6 +7,7 @@
 }
 
 body {
+  color: #ffffff;
   background-color: #181818;
   font-family: "Noto Sans", sans-serif;
   padding: 1rem;
@@ -19,7 +20,6 @@ header {
   margin-bottom: 2rem;
 }
 header h1 {
-  color: #ffffff;
   text-shadow: #740808 0 0 15px, #740808 0 0 15px, #740808 0 0 20px;
   text-align: center;
 }
@@ -58,4 +58,16 @@ main .container .card .player h4 {
 }
 main .container .card .specs {
   padding: 1rem;
+}
+
+footer {
+  padding-top: 5%;
+  text-align: center;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }

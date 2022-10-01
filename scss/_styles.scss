@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    color: $secondary;
     background-color: #181818;
     font-family: $font;
     ul{
@@ -15,7 +16,6 @@ body{
 header{
     margin-bottom: 2rem;
     h1{
-    color: $secondary;
     text-shadow: 
     $primary 0 0 15px,
     $primary 0 0 15px,
@@ -58,5 +58,16 @@ main{
                 padding: 1rem;
             }
     }
+    }
+}
+footer{
+    padding-top: 5%;
+    text-align: center;
+    a{
+        color: $secondary;
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
     }
 }
