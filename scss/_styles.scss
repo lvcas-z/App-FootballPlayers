@@ -28,6 +28,18 @@ main{
     color: $secondary;
     .select{
         margin-bottom: 1rem;
+        
+        #region{
+            margin: 1rem 0;
+            background-color: #181818;
+            color: $secondary;
+            border-style: none;
+            border-radius: 1rem;
+            box-shadow: 
+                        $secondary 0 0 2.5px,
+                        $secondary 0 0 2.5px,
+                        $secondary 0 0 5px;;
+        }
     }
     .container{
         display: flex;
@@ -61,13 +73,19 @@ main{
     }
 }
 footer{
-    padding-top: 5%;
+    padding-top: 1rem;
     text-align: center;
-    a{
-        color: $secondary;
-        text-decoration: none;
+    p{
+        padding-bottom: .5rem;
     }
-    a:hover{
-        text-decoration: underline;
+}
+@media (min-width: 321px) and (max-width : 780px)  {
+    .card{
+        max-width: 15rem;
+    }
+}
+@media (min-width: 781px){
+    .card{
+        max-width: 15rem;
     }
 }

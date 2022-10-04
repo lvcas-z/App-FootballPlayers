@@ -37,12 +37,50 @@
       "birth" : "24/05/94 (28)"
     },{
       "region":"sa",
+      "image": "img/valverde.png",
+      "name": "valverde",
+      "position": "cm",
+      "country": "uruguay",
+      "birth" : "22/07/98 (24)"
+    }
+    ,{
+      "region":"sa",
       "image": "img/cutiromero.png",
       "name": "romero",
       "position": "cb",
       "country": "argentina",
       "birth" : "27/04/98 (24)"
     },{
+      "region":"sa",
+      "image": "img/marquinhos.png",
+      "name": "marquinhos",
+      "position": "cb",
+      "country": "brazil",
+      "birth" : "14/05/94 (28)"
+    },{
+      "region":"sa",
+      "image": "img/rodrygo.png",
+      "name": "rodrygo",
+      "position": "rw",
+      "country": "brazil",
+      "birth" : "09/01/01 (21)"
+    },{
+      "region":"sa",
+      "image": "img/luisdiaz.png",
+      "name": "luis diaz",
+      "position": "lm",
+      "country": "colombia",
+      "birth" : "13/01/97 (25)"
+    }
+    ,{
+      "region":"eu",
+      "image": "img/haaland.png",
+      "name": "haaland",
+      "position": "st",
+      "country": "norway",
+      "birth" : "21/06/00 (22)"
+    }
+    ,{
       "region":"eu",
       "image": "img/courtois.png",
       "name": "courtois",
@@ -155,5 +193,33 @@
       "position": "gk",
       "country": "senegal",
       "birth" : "01/03/92 (30)"
+    },{
+      "region":"af",
+      "image": "img/mahrez.png",
+      "name": "mahrez",
+      "position": "rw",
+      "country": "algeria",
+      "birth" : "21/01/91 (31)"
+    },{
+      "region":"af",
+      "image": "img/aubameyang.png",
+      "name": "aubameyang",
+      "position": "st",
+      "country": "gabon",
+      "birth" : "18/06/89 (33)"
+    },{
+      "region":"af",
+      "image": "img/keita.png",
+      "name": "keïta",
+      "position": "cm",
+      "country": "guinea",
+      "birth" : "10/01/95 (27)"
+    },{
+      "region":"af",
+      "image": "img/osimhen.png",
+      "name": "osimhen",
+      "position": "st",
+      "country": "nigeria",
+      "birth" : "29/12/98 (23)"
     }
   ]

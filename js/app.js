@@ -49,6 +49,7 @@ const cardFilter = data =>{
 const cardBuilder = data => {
     data.forEach(player => {
         template.querySelector('img').setAttribute("src", player.image)
+        template.querySelector('img').setAttribute("alt", player.name)
         template.querySelector('h4').textContent = player.name.toUpperCase()
         template.querySelector('.position').textContent = `Position: ${player.position.toUpperCase()}`
         template.querySelector('.country').textContent = `Country: ${player.country.toUpperCase()}`
