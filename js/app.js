@@ -15,7 +15,10 @@ const getOption = () =>{
             document.location.reload(true)
         }))
     }
-    select.addEventListener('change',() => localStorage.setItem('option',select.value))
+    select.addEventListener('change',()=>{
+        localStorage.setItem('option',select.value)
+        document.location.reload(true)
+    })
 }
 
 const fetchData = async () => {
