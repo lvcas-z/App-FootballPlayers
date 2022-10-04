@@ -3,11 +3,6 @@ const template = document.getElementById('templateCard').content;
 const fragment = document.createDocumentFragment();
 const select = document.querySelector('#region');
 
-
-document.addEventListener('DOMContentLoaded',() => {
-    fetchData();
-})
-
 const getOption = () =>{
     if (localStorage.getItem('option')) {
         select.value = localStorage.getItem('option')
@@ -15,10 +10,11 @@ const getOption = () =>{
             document.location.reload(true)
         }))
     }
-    select.addEventListener('change',()=>{
-        localStorage.setItem('option',select.value)
-        document.location.reload(true)
-    })
+        select.addEventListener('change',()=>{
+            localStorage.setItem('option',select.value)
+            document.location.reload(true)
+        })
+    
 }
 
 const fetchData = async () => {
@@ -62,3 +58,5 @@ const cardBuilder = data => {
     })
     cardsContainer.appendChild(fragment)
 }
+
+fetchData()
