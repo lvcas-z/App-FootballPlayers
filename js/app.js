@@ -3,6 +3,10 @@ const template = document.getElementById('templateCard').content;
 const fragment = document.createDocumentFragment();
 const select = document.querySelector('#region');
 
+document.addEventListener('DOMContentLoaded',()=>{
+    cardFilter(players)
+})
+
 const getOption = () =>{
     if (localStorage.getItem('option')) {
         select.value = localStorage.getItem('option')
@@ -15,16 +19,6 @@ const getOption = () =>{
             document.location.reload(true)
         })
     
-}
-
-const fetchData = async () => {
-    try {
-        const res = await fetch('../api.json')
-        const data = await res.json()
-        cardFilter(data.players)
-    } catch (error) {
-        console.log(error)
-    }
 }
 const cardFilter = data =>{
     getOption()
@@ -58,5 +52,3 @@ const cardBuilder = data => {
     })
     cardsContainer.appendChild(fragment)
 }
-
-fetchData()
