@@ -1,4 +1,5 @@
-[
+{
+  "players":[
     {
       "region":"sa",
       "image": "img/vinicius.png",
@@ -42,8 +43,7 @@
       "position": "cm",
       "country": "uruguay",
       "birth" : "22/07/98 (24)"
-    }
-    ,{
+    },{
       "region":"sa",
       "image": "img/cutiromero.png",
       "name": "romero",
@@ -71,16 +71,14 @@
       "position": "lm",
       "country": "colombia",
       "birth" : "13/01/97 (25)"
-    }
-    ,{
+    },{
       "region":"eu",
       "image": "img/haaland.png",
       "name": "haaland",
       "position": "st",
       "country": "norway",
       "birth" : "21/06/00 (22)"
-    }
-    ,{
+    },{
       "region":"eu",
       "image": "img/courtois.png",
       "name": "courtois",
@@ -115,24 +113,21 @@
       "position": "st",
       "country": "france",
       "birth" : "20/12/98 (23)"
-    }
-    ,{
+    },{
       "region":"eu",
       "image": "img/kimmich.png",
       "name": "kimmich",
       "position": "cdm",
       "country": "germany",
       "birth" : "08/02/95 (27)"
-    }
-    ,{
+    },{
       "region":"eu",
       "image": "img/neuer.png",
       "name": "neuer",
       "position": "gk",
       "country": "germany",
       "birth" : "27/03/86 (36)"
-    }
-    ,{
+    },{
       "region":"eu",
       "image": "img/vandijk.png",
       "name": "van dijk",
@@ -153,40 +148,35 @@
       "position": "rw",
       "country": "egypt",
       "birth" : "15/06/92 (30)"
-    }
-    ,{
+    },{
       "region":"af",
       "image": "img/mane.png",
       "name": "mané",
       "position": "st",
       "country": "senegal",
       "birth" : "10/04/92 (30)"
-    }
-    ,{
+    },{
       "region":"af",
       "image": "img/koulibaly.png",
       "name": "koulibaly",
       "position": "cb",
       "country": "senegal",
       "birth" : "20/06/91 (31)"
-    }
-    ,{
+    },{
       "region":"af",
       "image": "img/hakimi.png",
       "name": "hakimi",
       "position": "rb",
       "country": "morocco",
       "birth" : "04/11/98 (23)"
-    }
-    ,{
+    },{
       "region":"af",
       "image": "img/kessie.png",
       "name": "kessie",
       "position": "cm",
       "country": "ivory coast",
       "birth" : "19/12/96 (25)"
-    }
-    ,{
+    },{
       "region":"af",
       "image": "img/mendy.png",
       "name": "mendy",
@@ -223,3 +213,4 @@
       "birth" : "29/12/98 (23)"
     }
   ]
+}
